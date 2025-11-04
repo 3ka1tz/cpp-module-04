@@ -1,5 +1,7 @@
 #include "Brain.hpp"
 
+#include <iostream>
+
 Brain::Brain() {
     std::cout << "Brain constructor called" << std::endl;
 }

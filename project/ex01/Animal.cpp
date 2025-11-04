@@ -1,5 +1,7 @@
 #include "Animal.hpp"
 
+#include <iostream>
+
 Animal::Animal() : type("Animal") {
     std::cout << "Animal constructor called" << std::endl;
 }
