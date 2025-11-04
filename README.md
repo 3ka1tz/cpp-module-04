@@ -28,3 +28,11 @@ In your main function, create and fill an array of Animal objects. Half of it wi
 Don’t forget to check for memory leaks.
 
 A copy of a Dog or a Cat mustn’t be shallow. Thus, you have to test that your copies are deep copies!
+
+## [Exercise 02: Abstract class](https://github.com/3ka1tz/cpp04/tree/main/project/ex02)
+
+Creating Animal objects doesn’t make sense after all. It’s true, they make no sound!
+
+To avoid any possible mistakes, the default Animal class should not be instantiable. Fix the Animal class so that nobody can instantiate it. Everything should work as before.
+
+If you want to, you can update the class name by adding an A prefix to Animal.
