@@ -10,9 +10,11 @@ public:
     Brain& operator=(const Brain& other);
     virtual ~Brain();
 
-    static const int ideasCount = 100;
+    void setIdea(int index, const std::string& idea);
+    std::string getIdea(int index) const;
 
 private:
+    static const int ideasCount = 100;
     std::string ideas[ideasCount];
 };
 
