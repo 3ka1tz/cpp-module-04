@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-AAnimal::AAnimal() : type("Animal") {
+AAnimal::AAnimal() : type("AAnimal") {
     std::cout << "AAnimal constructor called" << std::endl;
 }
 
@@ -19,7 +19,7 @@ AAnimal& AAnimal::operator=(const AAnimal& other) {
 }
 
 AAnimal::~AAnimal() {
-    std::cout << "Animal destructor called" << std::endl;
+    std::cout << "AAnimal destructor called" << std::endl;
 }
 
 std::string AAnimal::getType() const {
